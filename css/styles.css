@@ -1,0 +1,171 @@
+/* главные */
+.list{
+  list-style: none;
+}
+.link{
+  text-decoration: none;
+}
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --paragraph-text-color: #757575;
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-white-rgba:rgba(255, 255, 255, 0.6);
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #2F303A;
+  --background-button: #F5F4FA;
+}
+body {
+  background-color: var(--color-white);
+  color: var(--primary-text-color);
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+/* =хедер= */
+.logo {
+  color: var(--accent-color);
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.header-logo {
+  color: var(--color-black);
+}
+
+.footer-logo {
+  color: var(--color-white);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.nav-header a{
+  color: var(--title-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-footer a{
+  color: var(--color-white-rgba);
+  font-weight: 500;
+  line-height: 1.14;
+  font-style: normal;
+ 
+}
+.nav-header a:hover,
+.nav-header a:focus,
+.nav-footer a:hover,
+.nav-footer a:focus{
+  color: var(--accent-color);
+}
+.auth-nav a {
+  color: var(--paragraph-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-style: normal;
+
+}
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: var(--accent-color);
+}
+
+/* боди */
+.hero {
+ background-color: var(--secondary-background-color);
+ text-align: center;
+} 
+.hero-title {
+  background-color: #2f303a;
+  color: var(--color-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.advantages-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.advantages-text{
+  color: var(--paragraph-text-color);
+  line-height: 1.7;
+}
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team-text {
+  color: var(--paragraph-text-color);
+  font-size: 16px;
+  line-height: 1.18;
+}
+.nav-header .current {
+  color: var(--accent-color);
+}
+
+.footer{
+  background-color: var(--secondary-background-color);
+}
+
+.hero-button{
+font-family: inherit;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.06em;
+color: var(--color-white);
+background-color: var(--accent-color);
+cursor: pointer;
+}
+
+.button-job{
+font-weight: 500;
+font-size: 16px;
+font-family: inherit;
+line-height: 1.6;
+background-color: var(--background-button);
+color: var(--color-black);
+}
+
+
+.button-job:hover,
+.button-job:focus{
+ background-color: var(--accent-color);
+ color: var(--color-white);
+}
+.list-works-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.list-works-description{
+font-size: 1.9;
+line-height: 30px;
+color: var(--paragraph-text-color);
+}
+
